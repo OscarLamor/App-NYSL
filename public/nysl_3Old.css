@@ -1,0 +1,243 @@
+.grid {
+    display: grid;
+    grid-template-columns: 12% 5% 20% 26% 20% 5% 12%;
+}
+header{
+    grid-column-start: 1;
+    grid-column-end: 8;
+}
+.background {
+    height: 340px;
+    width: 100%;
+    border-radius: 10px;    
+}
+h1{
+    font-size: -webkit-xxx-large;
+    font-style: oblique;
+    position: absolute;
+    color: white;
+    right: 0px;
+    left: 46px;
+    top: 109px;
+}
+h2 {
+    grid-column-end: 5;
+    grid-column-start: 4;
+    font-family: monospace;
+    text-shadow: 0 0 15px black;
+    color: white;
+    text-align: center;
+}
+.logotipo {
+    position: absolute;
+    width: 185px;
+    top: 0px;
+    left: 392px;
+}
+.tablelinks li {
+    display: inline;
+    font-size: larger;
+    font-family: monospace;
+    top: -964px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    margin-right: 33px;
+    top: 7px;
+}
+.map iframe {
+    width: 100%;
+}
+
+.tablelinks {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    text-align: center;
+    background-color: #1a3a128a;
+    border-radius: 10px;
+    position: relative;
+    margin: 0 auto;
+}
+.information {
+    grid-column-start: 2;
+    grid-column-end: 7;
+    top: -865px;
+    font-size: large;
+    font-family: monospace;
+    background: #ffffffc4;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    border-radius: 10px;
+}   
+.contact1 {
+    position: relative;
+    font-family: monospace;
+    text-align: justify;
+    left: 408px;
+    top: -90px;
+    font-size: large;
+    background: #ffffffc4;
+    width: 500px;
+    top: -850px;
+}
+body {
+    height: 100%;
+    background-image: url(/lineabanda.jpg);
+}
+.strong, b {
+    color: black;
+}
+strong {
+    color: white;
+}
+.titulo {
+    font-weight: bold;
+}
+.marco{
+    padding-right: 20px;
+    padding-left: 20px;
+    border-top-width: 40px;
+    border-bottom-width: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.fall {
+    position: relative;
+    left: 5%;
+}
+.table1 {
+    border-spacing: 30px;
+    text-align: left;
+    margin: 0 auto;
+}
+.date{
+    vertical-align: super;
+}
+.table3 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.table3 td {
+    padding-right: 80px;
+}
+.table4 {
+    margin-bottom: 30px;
+}
+.table5 {
+    margin-bottom: 30px;
+}
+.table7 {
+    float: left;
+    margin-right: 20px;
+}
+.container1 {
+    display: flex;
+}
+.container2{
+    width: 50%;
+    margin-right: 50px;
+}
+.container4 {
+    display: flex;
+}
+.container5 {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.container6 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.submit {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.cont0 {
+    display: flex;
+}
+.cont1 {
+    display: flex;
+    width: 50%;
+}
+.cont2 {
+    display: flex;
+    width: 50%;
+}
+.labl {
+    border: none;
+    border-bottom: 1px solid;
+    width: 288px;
+}
+.labl0 {
+    border: none;
+    border-bottom: 1px solid;
+    width: 298px;
+}
+.labl1 {
+    border: none;
+    border-bottom: 1px solid;
+    width: 656px;
+}
+.labl2 {
+    border: none;
+    border-bottom: 1px solid;
+    width: 346px;
+}
+.labl3 {
+    border: none;
+    border-bottom: 1px solid;
+    width: 308px;
+}
+.labl4 {
+    border: none;
+    border-bottom: 1px solid;
+    width: 163px;
+}
+.labl5 {
+    border: none;
+    border-bottom: 1px solid;
+}
+.labl7 {
+    border: none;
+    border-bottom: 1px solid;
+    width: 259px;
+}
+.labl8 {
+    border: none;
+    border-bottom: 1px solid;
+    width: 346px;
+}
+.labl9 {
+    border: none;
+    border-bottom: 1px solid;
+    width: 637px;
+}
+.labl10 {
+    border: none;
+    border-bottom: 1px solid;
+    width: 144px;
+}
+.labl11 {
+    border: none;
+    border-bottom: 1px solid;
+    width: 390px;
+}
+.map {
+    margin: 0 auto;
+}
+.actualy {
+    background-color: #09394ad4;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-bottom: 1px solid;
+    border-bottom-color: white;
+    border-radius: 10px;
+}
+a {
+    text-decoration: none;
+}

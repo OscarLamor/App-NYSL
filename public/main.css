@@ -1,0 +1,286 @@
+body {
+    height: 100%;
+    background-image: url(/lineabanda.jpg);
+}
+
+.background {
+    height: 340px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.logotipo {
+    width: 185px;
+    text-align: center;
+}
+
+.logotipo2 {
+    width: 50px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: monospace;
+    text-shadow: 0 0 15px black;
+    color: white;
+    text-align: center;
+}
+
+
+
+h2 {
+    font-family: monospace;
+    text-shadow: 0 0 15px black;
+    color: white;
+    text-align: center;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #09394a;
+    border-color: #343a40;
+}
+
+.table0 {
+    text-align: center;
+}
+
+.arrow {
+    text-align: center;
+}
+
+.arrowLeft {
+    padding-right: 50px;
+}
+
+.arrowRight {
+    padding-left: 50px;
+}
+
+.login {
+    text-align: right;
+}
+
+.logout {
+    text-align: right;
+}
+
+.table3 {
+    text-align: center;
+}
+
+.table3 tr {
+    padding-bottom: 10px;
+}
+
+.matches td {
+    padding-bottom: 10px;
+}
+
+.matches th {
+    padding-bottom: 10px;
+}
+
+.myNavbar {
+    background: rgba(240, 240, 240, 1);
+    background: -moz-linear-gradient(-45deg, rgba(240, 240, 240, 1) 0%, rgba(219, 219, 219, 1) 0%, rgba(232, 232, 232, 1) 57%, rgba(252, 252, 252, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(240, 240, 240, 1)), color-stop(0%, rgba(219, 219, 219, 1)), color-stop(57%, rgba(232, 232, 232, 1)), color-stop(100%, rgba(252, 252, 252, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(240, 240, 240, 1) 0%, rgba(219, 219, 219, 1) 0%, rgba(232, 232, 232, 1) 57%, rgba(252, 252, 252, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(240, 240, 240, 1) 0%, rgba(219, 219, 219, 1) 0%, rgba(232, 232, 232, 1) 57%, rgba(252, 252, 252, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(240, 240, 240, 1) 0%, rgba(219, 219, 219, 1) 0%, rgba(232, 232, 232, 1) 57%, rgba(252, 252, 252, 1) 100%);
+    background: linear-gradient(135deg, rgba(240, 240, 240, 1) 0%, rgba(219, 219, 219, 1) 0%, rgba(232, 232, 232, 1) 57%, rgba(252, 252, 252, 0.60) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#fcfcfc', GradientType=1);
+
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: -webkit-xxx-large;
+    font-style: oblique;
+    color: white;
+    text-align: center;
+}
+
+.tablelinks {
+    text-align: center;
+    background-color: #1a3a128a;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.botones {
+    text-align: center;
+}
+
+.marginBtt30 {
+    margin-bottom: 25px;
+}
+
+.marginRight30 {
+    margin-right: 30px;
+}
+
+.marginTop10 {
+    margin-top: 10px;
+}
+
+.marginLeft10 {
+    margin-left: 10px;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+.icon-large {
+    font-size: 20px;
+}
+
+.textCamp {
+    height: 37px;
+    width: 100%;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 29px;
+        font-style: oblique;
+        color: white;
+        text-align: center;
+    }
+
+    .background {
+        display: none;
+    }
+}
+
+@media (orientation: landscape){
+    
+    .logotipo {
+    width: 50px;
+    text-align: center;
+    }
+    
+    .carousel{
+        display: none;
+    }
+    
+    .fin {
+        padding-right: 0px;
+    padding-left: 0px;
+    }
+    
+    .cardChat {
+        height: 65%;
+    }
+    
+    .tableChat  {
+        margin-top: 25px !important;
+        margin-bottom: 0px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .paddingOff {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    .cnTextCamp {
+        padding-right: 0px;
+    }
+    
+    .cnBtn {
+        padding-left: 0px;
+    }
+}
+
+.card {
+    background-color: #ffffffc4;
+}
+
+.myMessageLeft{
+    margin:10px;
+    border-radius: 10px;
+    padding:20px;
+    padding-bottom:5px;
+    width: 60%;
+}
+
+.myMessageRight{
+    margin:10px;
+    border-radius: 10px;
+    padding:20px;
+    padding-bottom:5px;
+    width: 60%;
+    margin-left:38%;
+}
+
+.littleTextRight{
+    text-align: right;
+    font-size: 0.8em;
+}
+
+.littleTextLeft{
+    text-align: left;
+    font-size: 0.8em;
+}
+
+.textRight{
+    text-align: right;
+}
+
+.textLeft{
+    text-align: left;
+}
+
+.btn.btn-default {
+    color: #53c74d;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(to bottom, #FFFFFF, #E0E0E0);
+    border-color: #CCCCCC #CCCCCC #CCCCCC;
+}
+
+.btn.btn-default:hover {
+    color: #53c74d;
+    background-color: #E0E0E0;
+    background-image: linear-gradient(to bottom, #E0E0E0, #E0E0E0);
+    border-color: #CCCCCC #CCCCCC #CCCCCC;
+}
+
+.chatContainer {
+    height: 400px;
+    overflow:scroll;
+}
+
+.tableChat {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
